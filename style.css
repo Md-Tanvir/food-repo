@@ -1,9 +1,14 @@
+/* Common CSS */
+
 body{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-color: #ffffff;
 }
+
+/* Header section CSS */
+
 .header-section{
     margin-top: 10px;
     display: flex;
@@ -34,6 +39,9 @@ body{
     font-weight: 600;
     font-size: 18px;
 }
+
+/* First section CSS */
+
 .first-section{
     display: flex;
     padding: 40px 0px 80px 0px;
@@ -41,7 +49,6 @@ body{
 .first-content{
     width: 50%;
     padding-left: 100px;
-
 }
 .first-content h1{
     padding-top: 120px;
@@ -78,6 +85,8 @@ body{
 .first-img img{
     width: 100%;
 }
+
+/* Second section CSS */
 
 .second-section{
     display: flex;
@@ -120,6 +129,9 @@ body{
     font-weight: 500;
     box-shadow: 0px 0px 15px orangered;
 }
+
+/* Third section CSS */
+
 .third-section h1{
     font-size: 40px;
     color: gray;
@@ -157,6 +169,9 @@ body{
     font-size: 18px;
     font-weight: 500;
 }
+
+/* Fourth section CSS */
+
 .fourth-section{
     margin: 140px 0px;
 }
@@ -181,6 +196,9 @@ body{
 .fourth-data p{
     font-size: 17px;
 }
+
+/* Footer section CSS */
+
 footer{
     background-color: black;
 }
