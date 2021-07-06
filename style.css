@@ -246,10 +246,10 @@ footer p {
 }
 .footer-box input {
   padding: 10px 15px;
+  border-radius: 5px;
 }
 #submit-btn {
   background-color: orange;
-  border-radius: 5px;
   margin-top: 10px;
   font-weight: 600;
 }
