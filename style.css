@@ -5,6 +5,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   background-color: #ffffff;
+  outline: none;
 }
 
 /* Header section CSS */
@@ -25,7 +26,7 @@ body {
   width: 50%;
 }
 .main-menu ul {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: right;
   margin-right: 100px;
 }
@@ -44,7 +45,7 @@ body {
 
 .first-section {
   display: flex;
-  padding: 40px 0px 80px 0px;
+  padding: 0px 0px 80px;
 }
 .first-content {
   width: 50%;
@@ -159,15 +160,27 @@ body {
 .third-box img {
   width: 100%;
 }
-.third-content h2 {
+.third-box h2 {
   font-weight: 800;
 }
-.third-content p {
+.third-box p {
   width: 100%;
   text-align: left;
   margin-bottom: 0px;
   font-size: 18px;
   font-weight: 500;
+}
+.third-box a {
+  margin-top: 15px;
+  text-decoration: none;
+  background: linear-gradient(to right, orange, orangered);
+  padding: 15px 30px;
+  display: inline-block;
+  color: white;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0px 0px 15px orangered;
 }
 
 /* Fourth section CSS */
@@ -220,6 +233,7 @@ footer p {
   display: flex;
   justify-content: space-evenly;
   background-color: rgb(0, 0, 0);
+  padding-bottom: 35px;
 }
 .footer-box {
   width: 18%;
@@ -245,13 +259,21 @@ footer p {
   text-decoration: none;
 }
 .footer-box input {
-  padding: 10px 15px;
+  padding: 7px 15px;
   border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  width: 80%;
 }
 #submit-btn {
-  background-color: orange;
-  margin-top: 10px;
+  background: linear-gradient(to right, orange, orangered);
   font-weight: 600;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px orangered;
+  border: none;
+  width: auto;
 }
 .copyright-text {
   margin-bottom: 0px;
