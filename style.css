@@ -303,6 +303,7 @@ footer p {
   font-weight: 500;
   margin-bottom: 10px;
   width: 80%;
+  border: 5px solid orange;
 }
 #submit-btn {
   background: linear-gradient(to right, orange, orangered);
