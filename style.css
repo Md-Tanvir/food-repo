@@ -148,10 +148,12 @@ body {
 }
 .third-content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 86%;
+  margin: 0 auto;
 }
 .third-box {
-  width: 22%;
+  width: 27%;
   background-color: white;
   box-shadow: 0px 0px 20px rgb(194, 194, 194);
   border-radius: 25px;
@@ -166,32 +168,31 @@ body {
 .third-box p {
   width: 100%;
   text-align: left;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
   font-size: 18px;
   font-weight: 500;
 }
 .third-box a {
-  margin-top: 15px;
   text-decoration: none;
   background: linear-gradient(to right, orange, orangered);
   padding: 15px 30px;
-  display: inline-block;
   color: white;
   border-radius: 50px;
   font-size: 16px;
   font-weight: 500;
   box-shadow: 0px 0px 15px orangered;
+  float: right;
 }
 
 /* Fourth section CSS */
 
 .fourth-section {
-  margin: 140px 0px;
+  margin: 140px 0px 80px;
 }
 .fourth-content {
   background-color: white;
   display: flex;
-  width: 82%;
+  width: 81%;
   margin: 0 auto;
   justify-content: space-evenly;
   padding: 40px;
@@ -208,6 +209,43 @@ body {
 }
 .fourth-data p {
   font-size: 17px;
+}
+
+/* Fifth section CSS */
+
+.fifth-section h2{
+  font-size: 40px;
+  color: gray;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.fifth-content{
+  display: flex;
+  margin: 0 auto;
+  width: 87%;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+.fifth-box{
+  width: 29%;
+  display: flex;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px rgb(209, 209, 209);
+}
+.fifth-box img{
+  width: 25%;
+  display: block;
+  border: 5px solid white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.fifth-box p{
+  font-weight: 600;
+  line-height: 25px;
+}
+.fifth-box p span{
+  color: orange;
 }
 
 /* Footer section CSS */
@@ -275,8 +313,9 @@ footer p {
   border: none;
   width: auto;
 }
-.copyright-text {
+#copyright-text {
   margin-bottom: 0px;
   padding: 20px 0px;
-  background-color: gray;
+  background-image: linear-gradient(to right,orange,orangered);
+  font-weight: 600;
 }
